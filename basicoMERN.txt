@@ -1,0 +1,51 @@
+Instalar router v6
+yarn add react-router-dom@6
+import { BrowserRouter } from "react-router-dom";
+
+creo la carpeta context
+luego UserContext
+luego UserProvider
+y finalmente lo coloco en el punto mas alto de la aplicación
+se coloca dentro del fragment
+
+Instalar boostrap
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+
+Realizar las rutas publicas y privadas segun la autenticacion
+
+Intalar para iconos
+https://cdnjs.com/libraries/font-awesome
+en el html
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+instalar para el calendar
+https://www.npmjs.com/package/react-big-calendar
+yarn add react-big-calendar
+Instlar para desestructurar
+yarn add date-fns
+
+Intalar para el modal
+https://www.npmjs.com/package/react-modal
+yarn add react-modal
+
+Instalar para el calendario
+https://www.npmjs.com/package/react-datepicker
+yarn add react-datepicker
+
+Pensar en las validaciones que se ejecuten 
+antes de ejecutar un boton o un formulario
+
+Instalar swedalert2
+yarn add swedalert2
+
+Intalar redux tulki
+Intalar redux
+yarn add @reduxjs/toolkit react-redux
+
+Crear store, index, slice
+Colocar en el punto más alto el store
+
+Configurar getEnvVariables para las variables de entorno
+y crear el .env y su template
+yarn add dotenv
+yarn add axios

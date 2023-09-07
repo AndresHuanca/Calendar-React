@@ -1,0 +1,165 @@
+Create Project
+yarn create vite
+name project
+react
+
+"rafc" for create Functional component
+crear cosas iniciales del proyecto- 72
+create main 
+create Functional component
+
+create modules of node
+yarn install or yarn 
+
+instalar proptypes 
+yarn add prop-types
+importar en el lugar de uso
+import PropTypes from 'prop-Types'
+
+
+correr project 
+yarn dev
+
+create un FC general 
+luego carpeta component
+colocar los FC secundarios
+
+para reconstruir los paquetes d e NodeJs para correr la aplicatión 
+yarn install 
+
+Generar para producción 
+yarn build
+carpeta dist
+
+Para subir producción rapido
+https://www.netlify.com/
+
+Productión with Git rapido
+git init
+inicializa el repositorio
+
+git add .
+prepara para una fotografia
+
+git commit -m "First commit"
+Toma fotografia
+
+Proyecto respaldado
+git checkout -- . "reconstruye todo el proyecto al ultimo commit"
+
+Subir a git Complete
+git remote add origin https://github.com/AndresHuanca/GifExpert-React.git
+git branch -M main
+git push -u origin main
+
+create README.md
+
+Example 
+cuando ya hay un commit y se realizan cambios y se quiere guardar se 
+realiza 
+git add .
+git commit -m "nombre de cambio"
+
+desplegar en github cuando ya esta creado 
+git push
+
+productión en  github
+rename dist a docs
+
+ROUTES--------------------
+
+Para instalar Router
+yarn add react-router-dom@6
+import { BrowserRouter } from "react-router-dom";
+
+creo la carpeta context
+luego UserContext
+luego UserProvider
+y finalmente lo coloco en el punto mas alto de la aplicación
+se coloca dentro del fragment
+
+Cuando un route no tiene una ruta alternativa, cuando se coloque una ruta inexistente
+con en Link,
+<Link to={`/hero/${ id }`}>
+    Más..
+</Link>
+se crea una nueva ruta 
+example
+http://localhost:5173/hero/marvel-spider
+
+<Route path="hero/:id" element={ <Hero /> } />
+agregamos/:id
+utilizar useParams() in FC
+
+useMemo utilizar cuando se renderiza una función y no cambian suss atributos 
+para que no se haga lenta el FC
+useMemo para memorizar valores
+usecallback para memorizar funciones
+
+es necesario
+const location = useLocation();
+onst { q ='' } = queryString.parse( location.search );
+
+instalar query-string para obtener los parametros
+yarn add query-string
+import queryString   from "query-string";
+
+Instalación de UI
+https://mui.com/material-ui/getting-started/installation/
+yarn add @mui/material @emotion/react @emotion/styled
+
+Link in roboto in html
+<link
+  rel="stylesheet"
+  href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+/>
+
+instalar icons
+yarn add @mui/icons-material
+
+en la carpeta theme realizar toda la configuración
+y luego importar en el componente principal
+utilizar <typography ></typography>
+se puede utilizar tambien iconos
+<MailOutline>
+Es un nuevo marco parecido a bootstrap
+-------------------------------------------------
+Redux
+https://redux-toolkit.js.org/
+tener instaladas 2 extensiones de desarrollo
+
+en quickstart( ahí esta la guia completa de instalación)
+yarn add @reduxjs/toolkit react-redux
+Colocar globalmente
+crear store
+crear slices
+
+en la 09 seción esta el RTK
+para las rutas y se guarden en el cache
+
+
+el archivo thunks se utiliza para acciones async
+isntalar axios
+yarn add axios
+lo bueno del RTK es para que se guarde en el cache la informacion  de lapeticion 
+y no se vuelva a llamar
+
+---------------------------------------
+bckend con firebase- registrar e instalar
+yarn add firebase
+crear config.js e importar 
+
+create providers.js para google signising(configurar primero en firebase)
+------------------------
+Alertas personalizadas
+https://sweetalert2.github.io/
+yarn add sweetalert2
+importar asi en el jsx
+import 'sweetalert2/dist/sweetalert2.css';
+---------
+utilizar cloudinary para las imagenes
+-----------------------------------------------
+
+IMPORTANTE
+Forgot y Reset Password, Permission Roles que significa esto en autenticación?
+HACERLO con AYUDA IA
