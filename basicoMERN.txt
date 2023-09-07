@@ -49,3 +49,15 @@ Configurar getEnvVariables para las variables de entorno
 y crear el .env y su template
 yarn add dotenv
 yarn add axios
+
+colocar hashRouter en lugar del BrouserRoter(otra forma 
+para solucion de error 404 en producción)
+
+Para generar a producción
+Configurar en backend
+
+crear
+.env.producción
+yarn build
+
+colocar todo lo del dist dentro del public del backend
